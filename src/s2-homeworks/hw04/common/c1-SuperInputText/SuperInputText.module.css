@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .input:focus {
 }
 
 .input {
+    display: flex;
+    width: 372px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 70px;
+
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
 }
 
 .inputWrapper {
@@ -11,10 +22,18 @@
 }
 
 .errorInput {
+    border: 1px solid #CC1439;
 }
 
 .errorInput:focus {
 }
 
 .error {
+    margin-left: 70px;
+    color: #CC1439;
+    font-family: Montserrat, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
