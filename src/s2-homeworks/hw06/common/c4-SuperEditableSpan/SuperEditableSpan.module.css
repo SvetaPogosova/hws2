@@ -1,11 +1,38 @@
+
 .spanBlock {
+    height: 36px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .span {
+    color: #0080FF;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
 }
 
+
 .input {
+    margin: 0;
+    display: flex;
+    width: 324px;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+
+    padding: 8px 24px;
+
+    color: #000;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .pen {
+    vertical-align: middle;
+    margin-right: 10px;
 }
